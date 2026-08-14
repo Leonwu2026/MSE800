@@ -19,7 +19,7 @@ print(iris.metadata)
 # variable information 
 print(iris.variables) 
 
-print("Total number of records is", len(X))
+print("Total number of records  is", len(X))
 print("Total number of different flowers", y.iloc[:, 0].nunique())
 print("names of all different flowers in the dataset")
 for name in y.iloc[:, 0].unique():
